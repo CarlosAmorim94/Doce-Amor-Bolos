@@ -1,81 +1,42 @@
-
 #header {
-    width: auto;
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 219, 225, 0.8);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(252, 209, 216);
-    border-radius: 3em 3em 0 0;
 }
 
-#logo {
+#logo{
     width: 15%;
-    margin: 2rem;
-    padding: auto;
+    height: auto;
+    padding: 10px;
 }
 
 #logo img {
-    width: 100%;
+    width: 90px;
+    height: 80%;
     border-radius: 50%;
-    padding: 5px;
 }
 
-nav {
-    margin-right: 5% ;
-    width: 50%;
+#navbar {
+    width: auto;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
+
 }
 
-nav ul {
+#navbar ul {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
-nav ul li {
-    font-size: 1.5rem;
-    padding: 5%;
-    list-style: none;
-}
-
-nav ul li:hover {
-    font-size: 1.8rem;
-}
-
-#show {
-    
-    display:flex;
-    background-color: rgb(252, 209, 216);
-    align-items: center;
     justify-content: center;
-
 }
 
-#texts {
-    width: 40%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+#navbar ul li {
+    width: auto;
+    margin-right: 7vh;
+    list-style: none;
+    font-size: 3vh;
 }
-
-.title {
-    font-size: 3rem;
-    margin: 10%;
-}
-
-.mintext {
-    margin: 1rem;
-    width: 90%;
-}
-
-#cake_home {
-    width: 50%;
-    display: flex;
-}
-
-#img {
-    width: 100%;
-    align-items: flex-end;
+#navbar ul li img {
+    width: 30px;
 }
