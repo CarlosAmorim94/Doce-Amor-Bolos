@@ -8,10 +8,10 @@ export default function Body() {
             <div id="home">
                 <section id="texts">
                     <div>
-                        <span>Feito com carinho!</span>
+                        <span>Feito com amor!</span>
                     </div>
                     <div>
-                        <p>Deliciosos bolos feitos com carinho e dedicação, com o máximo de sabor e leveza que só a Doce Amor pode proporcionar</p>
+                        <p>Deliciosos bolos feitos com carinho e dedicação, com o máximo de sabor e leveza que só a Doce Amor pode proporcionar! Entre em contato e experimente</p>
                     </div>
                 </section>
                 <section id="cake_image">

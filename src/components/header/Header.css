@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 #logo{
@@ -14,7 +15,7 @@
 }
 
 #logo img {
-    width: 90px;
+    width: 115px;
     height: 80%;
     border-radius: 50%;
 }
@@ -32,11 +33,29 @@
 }
 
 #navbar ul li {
+    display: flex;
+    align-items: center;
     width: auto;
     margin-right: 7vh;
     list-style: none;
     font-size: 3vh;
 }
+
+@media (max-width: 540px) {
+    #navbar ul li {
+        display: flex;
+        align-items: center;
+        width: auto;
+        margin-right: 2vh;
+        list-style: none;
+        font-size: 1em;
+    }
+}
+
+#navbar ul li:hover {
+    background-image: linear-gradient(to top, #fff, rgb(255, 219, 225, 0.8));
+}
+
 #navbar ul li img {
     width: 30px;
 }

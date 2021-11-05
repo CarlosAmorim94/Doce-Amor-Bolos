@@ -20,20 +20,30 @@
 
 #texts {
     width: 50%;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 #texts span {
     width: auto;
     font-family: Cake;
-    font-size: 10vh ;
+    padding: 12px;
+    font-size: 15vh ;
+}
+
+#texts div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #texts p {
     width: auto;
     font-size: 4vh ;
+    padding: 1vh;
 }
 
 #cake_image {
@@ -42,4 +52,36 @@
 
 #cake_image img {
     width: 90%;
+}
+
+@media (max-width: 540px) {
+    #cake_image {
+        display: none;
+    }
+
+    #cake_image img {
+        display: none;
+    }
+
+    #texts {
+        width: 80%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    #texts span {
+        width: auto;
+        font-family: Cake;
+        padding: 12px;
+        font-size: 12vh ;
+    }
+    
+    #texts p {
+        width: auto;
+        font-size: 3.5vh;
+        padding: 1vh;
+    }
 }
