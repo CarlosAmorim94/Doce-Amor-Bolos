@@ -1,6 +1,7 @@
 import React from 'react'
 import './Body.css'
 import cake from '../../img/cakehome.png'
+import Allcards from './cards/Allcards'
 
 export default function Body() {
     return (
@@ -11,7 +12,7 @@ export default function Body() {
                         <span>Feito com amor!</span>
                     </div>
                     <div>
-                        <p>Deliciosos bolos feitos com carinho e dedicação, com o máximo de sabor e leveza que só a Doce Amor pode proporcionar! Entre em contato e experimente</p>
+                        <p>Deliciosos bolos feitos com carinho e dedicação, com o máximo de sabor e leveza que só a Doce Amor pode proporcionar! Entre em contato e experimente!</p>
                     </div>
                 </section>
                 <section id="cake_image">
@@ -19,7 +20,9 @@ export default function Body() {
                 </section>
             </div>
             
-            <div id="">Imagens</div>
+            <div id="all_cards">
+                <Allcards/>
+            </div>
         </div>
     )
 }

@@ -64,11 +64,11 @@
     }
 
     #texts {
-        width: 80%;
+        width: 100%;
         height: auto;
         display: flex;
+        justify-content: space-around;
         align-items: center;
-        justify-content: center;
     
     }
 
@@ -76,12 +76,18 @@
         width: auto;
         font-family: Cake;
         padding: 12px;
-        font-size: 12vh ;
+        font-size: 8vh ;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
     
     #texts p {
         width: auto;
         font-size: 3.5vh;
         padding: 1vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
 }
