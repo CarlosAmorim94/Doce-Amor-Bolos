@@ -1,6 +1,6 @@
 import React from 'react'
 import './Cards.css'
-import Cake from '../../../../img/cake6.jpg'
+import Cake from '../../../../img/cake6.jpeg'
 import Modal from '../../modal/Modal'
 import Facebook from '../../../../img/facebook.png'
 import Whats from '../../../../img/whatsapp.png'

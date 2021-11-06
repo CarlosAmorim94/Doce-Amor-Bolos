@@ -12,6 +12,19 @@ import Cards9 from './allCards/Cards9'
 import Cards10 from './allCards/Cards10'
 import Cards11 from './allCards/Cards11'
 import Cards12 from './allCards/Cards12'
+import Cards13 from './allCards/Cards13'
+import Cards14 from './allCards/Cards14'
+import Cards15 from './allCards/Cards15'
+import Cards16 from './allCards/Cards16'
+import Cards17 from './allCards/Cards17'
+import Cards18 from './allCards/Cards18'
+import Cards19 from './allCards/Cards19'
+import Cards20 from './allCards/Cards20'
+import Cards21 from './allCards/Cards21'
+import Cards22 from './allCards/Cards22'
+import Cards23 from './allCards/Cards23'
+import Cards24 from './allCards/Cards24'
+
 
 export default function Allcards() {
     return (
@@ -28,6 +41,19 @@ export default function Allcards() {
             <Cards10/>
             <Cards11/>
             <Cards12/>
+            <Cards13/>
+            <Cards14/>
+            <Cards15/>
+            <Cards16/>
+            <Cards17/>
+            <Cards18/>
+            <Cards19/>
+            <Cards20/>
+            <Cards21/>
+            <Cards22/>
+            <Cards23/>
+            <Cards24/>
+
         </div>
     )
 }

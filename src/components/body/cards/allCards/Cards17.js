@@ -1,12 +1,12 @@
 import React from 'react'
 import './Cards.css'
-import Cake from '../../../../img/cake3.jpeg'
+import Cake from '../../../../img/cake17.jpeg'
 import Modal from '../../modal/Modal'
 import Facebook from '../../../../img/facebook.png'
 import Whats from '../../../../img/whatsapp.png'
 import Instagram from '../../../../img/instagram.png'
 
-export default function Cards3() {
+export default function Cards17() {
 
     const [modalVisible, setModalVisible] = React.useState(false)
 

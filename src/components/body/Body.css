@@ -48,6 +48,7 @@
 
 #cake_image {
     width: 50%;
+    height: auto;
 }
 
 #cake_image img {
