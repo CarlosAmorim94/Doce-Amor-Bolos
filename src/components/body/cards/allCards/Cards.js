@@ -1,12 +1,13 @@
 import React from 'react'
 import './Cards.css'
-import Cake from '../../../../img/cake1.jpeg'
 import Modal from '../../modal/Modal'
 import Facebook from '../../../../img/facebook.png'
 import Whats from '../../../../img/whatsapp.png'
 import Instagram from '../../../../img/instagram.png'
 
-export default function Cards() {
+
+
+export default function Cards(props) {
 
     const [modalVisible, setModalVisible] = React.useState(false)
 
@@ -16,12 +17,12 @@ export default function Cards() {
 
     return (
         <>
-            <div onClick={showModal} id="cards">
-                <img src={Cake} alt="imagem de um bolo"/>
+            <div onClick={showModal} class="cards">
+                <img src={props.img} alt="imagem de um bolo"/>
             </div>
 
             <Modal visible={modalVisible} setVisible={setModalVisible}>
-                <img id="img_modal" src={Cake} alt="imagem de um bolo"/>
+                <img id="img_modal" src={props.img} alt="imagem de um bolo"/>
                 <nav id="navbar">
                     <p>Experimente! entre em contato por nossas redes sociais:</p>
                     <ul>

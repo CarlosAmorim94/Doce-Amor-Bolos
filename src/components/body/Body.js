@@ -14,7 +14,7 @@ export default function Body() {
                     </div>
                     <div>
                         <p>Deliciosos bolos feitos com carinho e dedicação, com o máximo de sabor e leveza que só a Doce Amor pode proporcionar! Entre em contato e experimente!</p>
-                        <p>Você pode personalizar seu bolo como desejar! Sabor, formato, enfeites e cores! Consulte nossas variedades em nossas redes sociais!</p>
+                        <p>Você pode personalizar seu bolo como desejar! Sabores formatos, enfeites e cores! Consulte todas as variedades em nossas redes sociais!</p>
                     </div>
                 </section>
                 <section id="cake_image">
