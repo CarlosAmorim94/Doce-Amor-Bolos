@@ -1,4 +1,4 @@
-#all_cards {
+.cards {
     width: 100%;
     height: auto;
     display: flex;
@@ -8,13 +8,19 @@
     border-radius: 30px;
 }
 
-.cards {
+.cards ul {
     display: flex;
     flex-wrap: wrap;
     justify-items: center;
     width: 15%;
-    height: 30vh;
+    height: auto;
     margin: 10px;
+}
+
+.cards ul li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
 }
 
 .cards ul li img {
