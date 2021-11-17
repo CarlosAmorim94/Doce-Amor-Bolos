@@ -42,7 +42,7 @@
     font-size: 3vh;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 800px) {
     #navbar ul li {
         display: flex;
         align-items: center;

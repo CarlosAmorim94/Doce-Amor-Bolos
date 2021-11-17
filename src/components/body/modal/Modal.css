@@ -34,6 +34,11 @@ nav {
     justify-items: center;
 }
 
+nav ul li img {
+    list-style: none;
+    
+}
+
 @media (max-width: 540px) {
     #img_modal {
         width: 100%;

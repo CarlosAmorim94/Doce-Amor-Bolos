@@ -55,7 +55,7 @@
     width: 90%;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 800px) {
     #cake_image {
         display: none;
     }
