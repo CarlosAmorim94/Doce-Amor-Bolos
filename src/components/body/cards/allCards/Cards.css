@@ -1,4 +1,4 @@
-.cards {
+.area {
     width: 100%;
     height: auto;
     display: flex;
@@ -8,7 +8,7 @@
     border-radius: 30px;
 }
 
-.cards ul {
+.cards {
     display: flex;
     flex-wrap: wrap;
     justify-items: center;
@@ -16,7 +16,7 @@
     height: auto;
 }
 
-.cards ul li {
+.linha {
     display: flex;
     flex-wrap: wrap;
     justify-items: center;
@@ -24,26 +24,17 @@
     height: auto;
 }
 
-.cards ul li img {
+.linha img {
     display: flex;
     flex-wrap: wrap;
     justify-items: center;
-    width: 17vw;
-    height: 17vh;
+    width: 18vw;
+    height: 25vh;
     border: 1px solid black;
     border-radius: 20%;
     margin: 1vh;
 }
 
-nav ul li {
-    display: flex;
-    flex-wrap: wrap;
-    justify-items: center;
-    width: 17vw;
-    height: 17vh;
-    border-radius: 20%;
-    margin: 1vh;
-}
 
 #close_modal {
     width: 100%;
@@ -63,4 +54,15 @@ nav ul li {
         height: 100px;
         margin: 10px;
     } 
+
+    .linha img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: center;
+        width: 32vw;
+        height: 15vh;
+        border: 1px solid black;
+        border-radius: 20%;
+        margin: 5vw;
+    }
 }
