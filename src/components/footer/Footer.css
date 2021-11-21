@@ -1,0 +1,44 @@
+#footer {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 219, 225, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    width: 15%;
+    height: auto;
+    padding: 10px;
+}
+
+#logo img {
+    width: 115px;
+    height: 80%;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+#text {
+    margin: 15px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#text a {
+    text-decoration: none;
+}
+
+
+@media (max-width: 540px) {
+    #text {
+        margin: 1px;
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

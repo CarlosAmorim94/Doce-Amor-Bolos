@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Cake;
+    src: url("../../font/cake.woff");
+}
+
+@font-face {
+    font-family: TitleCake;
+    src: url("../../font/titlecake.woff");
+}
+
+#body {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 219, 225, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#texts {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#texts span {
+    width: auto;
+    font-family: TitleCake;
+    padding: 12px;
+    font-size: 11vh ;
+}
+
+#texts div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#texts p {
+    font-family: Cake;
+    width: auto;
+    font-size: 5vh ;
+    padding: 1vh;
+}
+
+#cake_image {
+    width: 50%;
+    height: 80vh;
+}
+
+#cake_image img {
+    width: 90%;
+    height: 100%;
+}
+
+#redes {
+    display: flex;
+    direction: row;
+}
+
+@media (max-width: 800px) {
+    #cake_image {
+        display: none;
+    }
+
+    #cake_image img {
+        display: none;
+    }
+
+    #texts {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+
+    #texts span {
+        width: auto;
+        font-family: TitleCake;
+        padding: 12px;
+        font-size: 5vh ;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    #texts p {
+        width: auto;
+        font-size: 3.5vh;
+        padding: 1vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
