@@ -3,6 +3,11 @@
     src: url("../../font/cake.woff");
 }
 
+@font-face {
+    font-family: TitleCake;
+    src: url("../../font/titlecake.woff");
+}
+
 #body {
     width: 100%;
     height: auto;
@@ -29,9 +34,9 @@
 
 #texts span {
     width: auto;
-    font-family: Cake;
+    font-family: TitleCake;
     padding: 12px;
-    font-size: 15vh ;
+    font-size: 11vh ;
 }
 
 #texts div {
@@ -41,18 +46,25 @@
 }
 
 #texts p {
+    font-family: Cake;
     width: auto;
-    font-size: 4vh ;
+    font-size: 5vh ;
     padding: 1vh;
 }
 
 #cake_image {
     width: 50%;
-    height: auto;
+    height: 80vh;
 }
 
 #cake_image img {
     width: 90%;
+    height: 100%;
+}
+
+#redes {
+    display: flex;
+    direction: row;
 }
 
 @media (max-width: 800px) {
@@ -75,9 +87,9 @@
 
     #texts span {
         width: auto;
-        font-family: Cake;
+        font-family: TitleCake;
         padding: 12px;
-        font-size: 8vh ;
+        font-size: 5vh ;
         display: flex;
         justify-content: space-around;
         align-items: center;

@@ -5,7 +5,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 #logo{
@@ -21,39 +20,25 @@
     margin-left: 20px;
 }
 
-#navbar {
+#text {
+    margin: 15px;
     width: auto;
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
-}
-
-#navbar ul {
-    display: flex;
     justify-content: center;
-    
 }
 
-#navbar ul li {
-    display: flex;
-    align-items: center;
-    width: auto;
-    margin-right: 7vh;
-    list-style: none;
-    font-size: 3vh;
+#text a {
+    text-decoration: none;
 }
 
-#navbar ul li img {
-    width: 30px;
-}
 
-@media (max-width: 800px) {
-    #navbar ul li {
+@media (max-width: 540px) {
+    #text {
+        margin: 1px;
+        width: 50vw;
         display: flex;
-        align-items: center;
-        width: auto;
-        margin-right: 2vh;
-        list-style: none;
-        font-size: 1em;
+        flex-direction: column;
+        justify-content: center;
     }
 }
