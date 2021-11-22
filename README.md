@@ -1,7 +1,20 @@
-<<<<<<< HEAD
-# Doce-Amor-Bolos
+
+# Doce Amor - Bolos
 Site desenvolvido para empresa "Doce Amor" responsável por fazer deliciosos bolos caseiros na região de Botucatu-SP
 =======
+
+Acesse: https://doceamor.netlify.app/
+
+### Versão Web:
+
+
+
+### Versão Mobile:
+
+
+# For Devs
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
