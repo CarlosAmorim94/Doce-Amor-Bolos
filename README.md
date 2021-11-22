@@ -1,16 +1,19 @@
 
 # Doce Amor - Bolos
-Site desenvolvido para empresa "Doce Amor" responsável por fazer deliciosos bolos caseiros na região de Botucatu-SP
-=======
 
-Acesse: https://doceamor.netlify.app/
+Site desenvolvido para empresa "Doce Amor" responsável por fazer deliciosos bolos caseiros na região de Botucatu-SP
+
+### Acesse:
+
+https://doceamor.netlify.app/
 
 ### Versão Web:
 
-
+![Sem título](https://user-images.githubusercontent.com/83739628/142950284-4f8c54a9-b7fc-4592-91fa-75570e312ab8.jpeg)
 
 ### Versão Mobile:
 
+![doceamor netlify app_ (1) (1)](https://user-images.githubusercontent.com/83739628/142950298-b78e5080-efb7-4488-912a-8b78a7346043.png)
 
 # For Devs
 
