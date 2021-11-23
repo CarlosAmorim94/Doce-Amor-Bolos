@@ -16,7 +16,7 @@ export default function Body() {
                         <span>Feito com amor!</span>
                     </div>
                     <div id="redes">
-                        <p>DELICIOSOS BOLOS FEITOS COM CARINHO E O MáXIMO DE LEVEZA e SABOR QUE Só A DOCE AMOR PODE PROPORCIONAR! <br/><br/>VOCê PODE PERSONALIZAR SEU BOLO COMO DESEJAR! SABORES FORMATOS, ENFEITES E CORES ENTRE EM CONTATOR POR NOSSAS REDES SOCIAIS:</p>
+                        <p>DELICIOSOS BOLOS FEITOS COM CARINHO E O MáXIMO DE LEVEZA e SABOR QUE Só A DOCE AMOR PODE PROPORCIONAR! <br/><br/>VOCê PODE PERSONALIZAR SEU BOLO COMO DESEJAR! SABORES FORMATOS, ENFEITES E CORES ENTRE EM CONTATO POR NOSSAS REDES SOCIAIS:</p>
                         <div>
                             <nav id="navbar">
                                 <ul>
