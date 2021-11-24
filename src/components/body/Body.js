@@ -33,11 +33,10 @@ export default function Body() {
                 </section>
             </div>
             
-            <div id="all_cards">
+            <article id="all_cards">
                 <Allcards/>
-            </div>
-
-
+            </article>
+            
         </div>
     )
 }

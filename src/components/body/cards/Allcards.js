@@ -57,7 +57,7 @@ export default function Allcards() {
     ]
 
     return (
-        <div class="area">
+        <section class="area">
            <ul class="cards" >
               {cakes.map((item)=> (
                   <li class="linha" key={item.id}><Cards img={item.img} /></li>
@@ -65,6 +65,6 @@ export default function Allcards() {
            </ul>
            
 
-        </div>
+        </section>
     )
 }
