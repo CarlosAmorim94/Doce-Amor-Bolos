@@ -11,7 +11,7 @@ export default function Footer() {
                 </div>
                 <div id="text">
                     <p>Doce Amor&copy; - Todos os direitos reservados</p>
-                    <p>Site desenvolvido por: <a href="https://www.linkedin.com/in/carlos-amorim-9a9a8aa2/">Carlos Amorim</a></p>
+                    <p>Site desenvolvido por: <a href="https://www.linkedin.com/in/carlosamorim94/">Carlos Amorim</a></p>
                 </div>
             </section>           
         </footer>

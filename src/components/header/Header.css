@@ -42,6 +42,10 @@
     font-size: 3vh;
 }
 
+#navbar ul li img {
+    width: 50px;
+}
+
 @media (max-width: 800px) {
     #navbar ul li {
         display: flex;
@@ -51,12 +55,4 @@
         list-style: none;
         font-size: 1em;
     }
-}
-
-#navbar ul li:hover {
-    background-image: linear-gradient(to top, #fff, rgb(255, 219, 225, 0.8));
-}
-
-#navbar ul li img {
-    width: 50px;
 }
