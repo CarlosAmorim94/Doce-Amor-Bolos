@@ -6,7 +6,7 @@ export const Container = styled.header`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2rem;
+  padding: 1.5rem;
 `;
 
 export const Navbar = styled.nav`
@@ -14,26 +14,36 @@ export const Navbar = styled.nav`
   flex-direction: row;
   align-items: center;
   list-style: none;
+  transition: all ease 0.5s;
 
   li {
-    margin-right: 1rem;
-  }
-`;
+    cursor: pointer;
+    padding: 1rem;
+    transition: all ease 0.5s;
+    position: relative;
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: bold;
 
-export const BuyButton = styled.button`
-  padding: 1rem 2rem;
-  border-radius: 1rem;
-  border: none;
-  font-size: 1rem;
-  font-weight: bold;
-  letter-spacing: 1px;
-  background-color: ${({ theme }) => theme.colors.secondary};
-  color: ${({ theme }) => theme.colors.primary};
-  cursor: pointer;
-  transition: all ease 0.5s;
-  opacity: 0.8;
+    a {
+      text-decoration: none;
+      color: ${({ theme }) => theme.colors.background};
+    }
 
-  :hover {
-    opacity: 1;
+    &:after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: ${({ theme }) => theme.colors.background};
+      transition: all ease 0.5s;
+    }
+    &:hover {
+      &:after {
+        width: 100%;
+      }
+    }
   }
 `;

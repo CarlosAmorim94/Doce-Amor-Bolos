@@ -2,8 +2,9 @@ import Image from "next/image";
 import React, { memo } from "react";
 import LogoImg from "/public/img/logo.png";
 
-import { BuyButton, Container, Navbar } from "./styles";
+import { Container, Navbar } from "./styles";
 import Link from "next/link";
+import ButtonBuy from "../ButtonBuy";
 
 function Header() {
   return (
@@ -21,13 +22,12 @@ function Header() {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/">Contato</Link>
+          <Link href="/">Produtos</Link>
         </li>
         <li>
-          <Link href="/">
-            <BuyButton>Comprar</BuyButton>
-          </Link>
+          <Link href="/">Contato</Link>
         </li>
+        <ButtonBuy text="Comprar" />
       </Navbar>
     </Container>
   );

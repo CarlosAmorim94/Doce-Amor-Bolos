@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.main`
-  background-image: url("/img/bgpink.webp");
+  background-image: url("/img/bg2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -9,16 +9,17 @@ export const Container = styled.main`
   min-height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
 `;
 
 export const Content = styled.article`
   width: 80%;
-  margin: 1rem;
+  height: fit-content;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: ${({ theme }) => theme.colors.secondary};
+  color: ${({ theme }) => theme.colors.background};
 
   //Glassmorphism
   background: ${({ theme }) => theme.colors.glassmorphism};
