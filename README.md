@@ -1,46 +1,34 @@
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# Doce Amor - Bolos
+## Getting Started
 
-Site desenvolvido para empresa "Doce Amor" responsável por fazer deliciosos bolos caseiros na região de Botucatu-SP
+First, run the development server:
 
-### Acesse:
-
-https://doceamor.netlify.app/
-
-
-![Sem título](https://user-images.githubusercontent.com/83739628/142950284-4f8c54a9-b7fc-4592-91fa-75570e312ab8.jpeg)
-
-
-
-## 🚀 Projeto criado para cliente, mas consegui reforçar conceitos do ReactJS como:
-
-- ✔️ Componentização.
-- ✔️ Treinar CSS.
-- ✔️ Uso da função map
-- ✔️ Responsividade
-
-
-## ⚙ Pré Requisitos
-
-- Antes de iniciar o projeto, você vai precisar das seguintes ferramentas: 
-    - ✔️ [VsCode](https://code.visualstudio.com/download);
-    - ✔️ [Git](https://git-scm.com/)
-    - ✔️ [NodeJS](https://nodejs.org/en/download/)
-
-
-## Clonar o repositório
 ```bash
-$ git clone https://github.com/CarlosAmorim94/Doce-Amor-Bolos.git
+npm run dev
+# or
+yarn dev
 ```
 
-## Instalar dependências
-```bash
-npm install
-```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Rodar Projeto
-```bash
-npm start
-```
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-## 😃 Gostou? me siga no -> [Likedln](https://www.linkedin.com/in/CarlosAmorim94/) 💙
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
