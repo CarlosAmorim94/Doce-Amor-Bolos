@@ -12,4 +12,15 @@ export const GlobalStyle = createGlobalStyle`
     scroll-behavior: smooth;
     overflow-x: hidden;
   }
+
+  a {
+    text-decoration: none;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  
 `;

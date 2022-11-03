@@ -2,7 +2,7 @@ import Image from "next/image";
 import React, { memo } from "react";
 import LogoImg from "/public/img/logo.png";
 
-import { Container, Navbar } from "./styles";
+import { BuyButton, Container, Navbar } from "./styles";
 import Link from "next/link";
 
 function Header() {
@@ -17,9 +17,17 @@ function Header() {
       </Link>
 
       <Navbar>
-        <li>Home</li>
-        <li>Contato</li>
-        <li>Comprar</li>
+        <li>
+          <Link href="/">Home</Link>
+        </li>
+        <li>
+          <Link href="/">Contato</Link>
+        </li>
+        <li>
+          <Link href="/">
+            <BuyButton>Comprar</BuyButton>
+          </Link>
+        </li>
       </Navbar>
     </Container>
   );
