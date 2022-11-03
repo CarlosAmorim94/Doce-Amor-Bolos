@@ -6,8 +6,6 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
-    transition: all ease .5s;
-    text-decoration: none;
 }
     
   html {
