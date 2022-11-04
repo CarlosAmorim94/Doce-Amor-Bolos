@@ -4,9 +4,10 @@ import { ImFacebook2 } from "react-icons/im";
 import { SiWhatsapp, SiInstagram } from "react-icons/si";
 import { GrMap } from "react-icons/gr";
 
-import { Banner, Container, ContactArea, Icons } from "./styles";
+import { Banner, Container, ContactArea } from "./styles";
 
 import ContactIMG from "../../../public/img/animation/cont.json";
+import ContactsIcons from "../ContactsIcons";
 
 function Contact() {
   return (
@@ -16,22 +17,26 @@ function Contact() {
       </Banner>
 
       <ContactArea>
-        <Icons>
-          <ImFacebook2 color="#3B5998" fontSize="8rem" />
-          <p>Facebook</p>
-        </Icons>
-        <Icons>
-          <SiWhatsapp color="#34af23" fontSize="8rem" />
-          <p>Whatsapp</p>
-        </Icons>
-        <Icons>
-          <SiInstagram color="#7344B6" fontSize="8rem" />
-          <p>Instagram</p>
-        </Icons>
-        <Icons>
-          <GrMap color="#E94235" fontSize="8rem" />
-          <p>Localização</p>
-        </Icons>
+        <ContactsIcons
+          name="Facebook"
+          icon={<ImFacebook2 color="#3B5998" fontSize="8rem" />}
+          url="https://www.facebook.com/profile.php?id=100064102269111"
+        />
+        <ContactsIcons
+          name="Whatsapp"
+          icon={<SiWhatsapp color="#34af23" fontSize="8rem" />}
+          url="https://api.whatsapp.com/send?phone=5514991961016&text=Ol%C3%A1!%20Tenho%20uma%20d%C3%BAvida"
+        />
+        <ContactsIcons
+          name="Instagram"
+          icon={<SiInstagram color="#7344B6" fontSize="8rem" />}
+          url="https://www.instagram.com/doceamor98/"
+        />
+        <ContactsIcons
+          name="Localização"
+          icon={<GrMap color="#E94235" fontSize="8rem" />}
+          url="https://goo.gl/maps/8YxboHpy2NzDejcj7"
+        />
       </ContactArea>
     </Container>
   );
