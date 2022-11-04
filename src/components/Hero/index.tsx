@@ -1,14 +1,16 @@
-import Image from "next/image";
 import React, { memo } from "react";
+import Lottie from "lottie-react";
 import ButtonBuy from "../ButtonBuy";
+
 import { Banner, Container, Description, Text } from "./styles";
-import Cake from "/public/img/2.gif";
+
+import Cake from "/public/img/animation/Cake.json";
 
 function Hero() {
   return (
     <Container>
       <Banner>
-        <Image src={Cake} alt="cake" height={500} />
+        <Lottie animationData={Cake} />
       </Banner>
 
       <Description>

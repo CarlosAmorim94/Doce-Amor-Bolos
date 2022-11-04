@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.main`
-  background-image: url("/img/bg2.jpg");
+  background-image: url("/img/background/bg2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -23,6 +23,6 @@ export const Content = styled.article`
 
   //Glassmorphism
   background: ${({ theme }) => theme.colors.glassmorphism};
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
   box-shadow: ${({ theme }) => theme.colors.shadow};
 `;
