@@ -1,14 +1,17 @@
+import React, { memo } from "react";
+import Contact from "../components/Contact";
 import Header from "../components/Header";
-import Hero from "../components/Hero";
 import { Container, Content } from "../styles/styles";
 
-export default function Home() {
+function contato() {
   return (
     <Container>
       <Content>
         <Header />
-        <Hero />
+        <Contact />
       </Content>
     </Container>
   );
 }
+
+export default memo(contato);

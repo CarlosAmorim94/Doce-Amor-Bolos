@@ -25,7 +25,7 @@ function Header() {
           <Link href="/">Produtos</Link>
         </li>
         <li>
-          <Link href="/">Contato</Link>
+          <Link href="/contato">Contato</Link>
         </li>
         <ButtonBuy text="Comprar" />
       </Navbar>
