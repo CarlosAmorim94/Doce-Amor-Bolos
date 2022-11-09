@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.main`
-  background-image: url("/img/background/bg2.jpg");
+  background-image: url("/img/background/bg4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -19,7 +19,7 @@ export const Content = styled.article`
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: ${({ theme }) => theme.colors.background};
+  color: ${({ theme }) => theme.colors.text};
 
   //Glassmorphism
   background: ${({ theme }) => theme.colors.glassmorphism};

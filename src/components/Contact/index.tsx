@@ -6,7 +6,7 @@ import { GrMap } from "react-icons/gr";
 
 import { Banner, Container, ContactArea } from "./styles";
 
-import ContactIMG from "../../../public/img/animation/cont.json";
+import ContactIMG from "../../../public/img/animation/cont2.json";
 import ContactsIcons from "../ContactsIcons";
 
 function Contact() {

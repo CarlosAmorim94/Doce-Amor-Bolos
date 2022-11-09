@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@lottiefiles/lottie-player": "^1.6.0",
+    "@prismicio/client": "^6.7.1",
+    "@prismicio/react": "^2.5.0",
     "@types/node": "18.11.9",
     "@types/react": "18.0.24",
     "@types/react-dom": "18.0.8",

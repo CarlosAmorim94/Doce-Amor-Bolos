@@ -4,7 +4,7 @@ import ButtonBuy from "../ButtonBuy";
 
 import { Banner, Container, Description, Text } from "./styles";
 
-import Cake from "../../../public/img/animation/Cake.json";
+import Cake from "../../../public/img/animation/cakehome.json";
 
 function Hero() {
   return (

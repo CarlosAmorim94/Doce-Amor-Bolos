@@ -27,7 +27,7 @@ export const Navbar = styled.nav`
 
     a {
       text-decoration: none;
-      color: ${({ theme }) => theme.colors.background};
+      color: ${({ theme }) => theme.colors.text};
     }
 
     &:after {

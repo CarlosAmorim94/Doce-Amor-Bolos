@@ -2,35 +2,26 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   width: 100%;
-  height: 100%;
   overflow: hidden;
-  position: relative;
   display: flex;
-  flex-direction: row;
-`;
-
-export const Banner = styled.div`
-  width: 80%;
-  text-align: center;
+  flex-direction: column;
 `;
 
 export const Description = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
   margin: auto;
 `;
 
 export const Text = styled.h1`
-  width: 85%;
-  font-size: 3.125rem;
+  font-size: 3rem;
   font-weight: bold;
   margin-bottom: 1rem;
+`;
 
-  span {
-    display: block;
-    font-size: 3.438rem;
-    font-style: italic;
-  }
+export const SubText = styled.h2`
+  font-size: 1rem;
 `;

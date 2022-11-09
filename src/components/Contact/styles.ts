@@ -10,13 +10,12 @@ export const Container = styled.section`
 `;
 
 export const Banner = styled.div`
-  width: 100%;
+  width: 80%;
   text-align: center;
-  margin: 2rem 0;
 `;
 
 export const ContactArea = styled.div`
-  width: 80%;
+  width: 100%;
   padding: 3rem;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -24,14 +23,4 @@ export const ContactArea = styled.div`
 
   justify-items: center;
   align-items: center;
-`;
-
-export const Icons = styled.div`
-  width: 100%;
-  text-align: center;
-
-  p {
-    font-size: 1rem;
-    font-weight: bold;
-  }
 `;
